@@ -5,6 +5,7 @@ import { withRouter } from '../common/with-router';
 class Tutorial extends Component {
   constructor(props) {
     super(props);
+    
     this.onChangeTitle = this.onChangeTitle.bind(this);
     this.onChangeDescription = this.onChangeDescription.bind(this);
     this.getTutorial = this.getTutorial.bind(this);
@@ -19,6 +20,7 @@ class Tutorial extends Component {
         description: "",
         published: false
       },
+
       message: ""
     };
   }
